@@ -1,0 +1,33 @@
+#include<studio.h>
+#include<stilb.h>
+int main ()
+{
+	float 
+
+}else if
+{
+	if (salario_bruto >=300)
+	{
+		imposto=salario_bruto*0.05;
+	} else
+	{
+		imposto=salario_bruto*0.03;
+	}
+
+} else if (categoria == 'G')
+{
+	if (salario_bruto >= 400)
+	{
+		imposto=salario*salario_bruto*0,06;
+	}
+	else
+	{
+		imposto=(salario_bruto*0.4);
+	}
+}
+printf ("\nO valor do seu imposto
+
+	{
+		gratificacao=30
+	}
+	if (categoria == 'O' ll coeficiente <=

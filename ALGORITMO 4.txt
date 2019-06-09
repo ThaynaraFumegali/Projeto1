@@ -1,0 +1,54 @@
+int cont, cod, num_vei, num_acd, soma_vei, maior, menor, cid_menor, cont_acid;
+float media_vei, media_acid, soma_acid;
+{
+soma_vet=0;
+soma_acid=0
+conta_acid=0;
+for (cont=1; cont<=5; cont++);
+{
+	printf("Digite o codigo da cidade: ");
+	scanf("%i", &cos);
+	printf("Digite o numero de veiculos de passeio: ");
+	scanf("%i", &num_vei);
+	printf("Digite o numero de acidentes: ");
+	scanf("%i", &num_acid);
+		if (cont=1)
+		{
+			maior=num_acid;
+			cid_maior=cod;
+			menor=num_acid;
+			cid_menor=cod;
+		}else
+		{
+			if(num_acid>maior)
+			{				
+				maior=num_acid;
+				cid_menor=cod;
+			}
+			if(num_acid<menor)
+			{
+				menor=num_acid;
+				cid_menor=cod;
+			}
+		}
+	soma_vei=soma_veic+num_vei
+		if (num_vei<2000)
+		{
+			soma_acid=soma_acid+num_acid;
+			conta_acid=conta_acid+1;
+		}
+	}
+printf ("Maior  numero de acidentes: %i - Na cidade de codigo: %i.", maior, cid_maior);
+printf("Menor numero de acidentes: %i - Na cidade de codigo: %i.", menor, cid_menor);
+media_vei=num_vei/5;
+printf("A media de veiculos da cidade e de: %.2f", media_vei;
+	if (vont_acid==0)
+	{
+		printf ("Nao foi informado cidade com menos de 2000 veiculos.")
+	}else
+	{
+		media_acid=soma_acid/cont_acid;
+		printf("Media de acidentes com menos de 2000 veiculos: %.2f", media_acid);
+'	} 
+return 0;
+}
