@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+    int num, num2, opc;
+    printf("Digite um numero inteiro, POSITIVO E MAIOR QUE ZERO: ");
+    scanf("%d", &num);
+    printf("Digte outro numero, por favor, POSITIVO E MAIOR QUE ZERO: ");
+    scanf ("%d", &num2);
+    printf("Digite 1 - Para realizar a raiz quadrada dos numeros. \nDigite 2 - Para elevar os dois numeros ao cubo \nDigite 3 - Para informar quais são par ou impar \n ");
+    scanf("%d", &opc);
+        switch (opc)
+        {
+            case 1:
+                printf("A raiz quadrada do primeiro numero e': %f \n E a raiz do segundo numero e': %f ", sqrt(num), sqrt(num2));
+            break;
+            case 2:
+                printf("O primeiro numero elevado ao cubo e' %f \n E o segundo numero elevado ao cubo e': %f", pow(num,3), pow(num2,3));
+            break;
+            case 3:
+                if (num%2==0)
+                    {
+                        printf("O primeiro numero e' par!");
+                    }
+                    else
+                    {
+                        printf("O primeiro numero e' impar!");
+                    }
+                if (num2%2==0)
+                    {
+                        printf("\nO segundo numero e' par!");
+                    }
+                else
+                    {
+                        printf("\nO segundo numero e' impar!");
+                    }
+            break;
+            default:
+                printf("Nao reconheço seu comando!");
+        }
+    return 0;
+}
+
+        }
+            return 0;

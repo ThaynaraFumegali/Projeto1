@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int anoa;
+    printf("Qual o ano atual? ");
+    scanf ("%d", &anoa);
+    printf("Desde a estreia do filme se passaram: %d anos", anoa-1986);
+    printf("\nQuando os personagens foram para o ano de 1985, passando entao: %d anos", anoa-1885);
+    return 0;
+}

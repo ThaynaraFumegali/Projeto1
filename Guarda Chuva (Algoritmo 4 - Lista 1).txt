@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    bool (chovendo, guardachuva);
+    printf("ESCREVA SOMENTE V PARA VERDADEIRO E F PARA FALSO \n Esta chovendo? %b");
+    scanf("%b", &chovendo);
+    printf("Voce tem um guarda chuva? %b");
+    scanf("%c", &guardachuva);
+    switch chovendo
+    {
+        case v:
+            switch guardachuva
+               {
+                   case v:
+                   printf("Leve seu guarda-chuva!");
+                   break;
+                   case f:
+                   printf("Voce ira se molhar muito!");
+                   break;
+                   default:
+                   printf("DIGITE APENAS V OU F, POR FAVOR!");
+               }
+       break;
+        case f:
+             switch guardachuva
+               {
+                   case v:
+                   printf("Aproveite o dia de sol!");
+                   break;
+                   case f:
+                   printf("Aproveite seu dia");
+                   break;
+                   default:
+                   printf("DIGITE APENAS V OU F, POR FAVOR!");
+               }
+            break;
+        default:
+        printf("DIGITE APENAS V OU F, POR FAVOR!");
+    }
+}

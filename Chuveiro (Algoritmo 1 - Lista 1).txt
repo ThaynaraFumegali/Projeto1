@@ -1,0 +1,20 @@
+void main ()
+{
+    int potencia, tensao, amperagem;
+    float corrente;
+    printf("Qual a potencoia de seu novo chuveiro? ");
+    scanf("%d", &potencia);
+    printf("Qual a tensao eletrica da sua casa? ");
+    scanf("%d", &tensao);
+    printf ("Qual a amperagem que seu dijuntor suporta? ");
+    scanf("%d", &amperagem);
+    corrente=(potencia/tensao);
+        if (corrente>20)
+            {
+                printf("Voce precisa de um dijuntor novo, de corrente: %f", &corrente);
+            }
+            else
+            {
+                printf("Voce nao  precisa de um dijuntor novo, a corrente e : %f", &corrente);
+            }
+}
