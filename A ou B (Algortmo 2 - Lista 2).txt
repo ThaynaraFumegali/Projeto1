@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num, A, B;
+    printf("Digite um numero INTEIRO: %d");
+    scanf("%d", &num);
+    if (num>0):
+    {
+        A=num;
+    }
+    else (num<0):
+    {
+        B=num;
+    }
+    printf("O valor de A: %d\nO valor de B: %d\n\t Obrigada por usar este prorama!", A, B);
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int  kg;
+    printf("Ola Zezinho! \nQuantos kg de peixe voce pescou hoje? ");
+    scanf("%d", &kg);
+    if (kg>50)
+    {
+        printf("Zezinho, voce pescou %d de kilos de peixes a mais. \nVocê precisa pagar %d reais", (kg-50), ((kg-50)*4));
+    }
+    else
+    {
+        printf("Muito bem! Voce pescou o permitido pelo estado de Santa Catarina!");
+    }
+    return 0;
+}
+

@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int num;
+    printf("Digite um numero, por favor: %d");
+    scanf("%d", &num);
+    if (num>9):
+    {
+        if (num<1):
+        {
+          printf("O valor não está dentro da faixa permitida!");
+        }
+        else:
+        {
+        }
+    }
+    else:
+    {
+      printf("O valor essta na faixa permitida!");
+    }
+}

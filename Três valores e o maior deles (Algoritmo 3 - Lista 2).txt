@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int num1, num2, num3;
+    printf("ESTE PROGRAMA TRABALHA SOMENTE COM NUMEROS INTEIROS \n Digite o primeiro numero: %d");
+    scanf("%d", &num1);
+    printf("\nDigite o segundo numero: %d");
+    scanf("%d",&num2);
+    printf("\nDigite o terceiro numero: %d");
+    scanf("%d", &num3);
+        if (num1=num2):
+        {
+            if (num2=num3):
+            {
+                printf("Todos os numeros sao iguais!");
+            }
+            else:
+            {
+                printf("O primeiro numero e' igual ao segundo!");
+            }
+        }
+        else (num1=num3):
+        {
+            printf("P primeiro numero e' igaul ao terceiro!");
+        }
+        if (num1>num2):
+        {
+            if (num1>num3):
+            {
+                printf("O numero 1 e' o maior!");
+            }
+            else:
+            {
+                printf("O terceiro numero e o maior!");
+            }
+        }
+        else:
+        {
+            if (num2>num3):
+            {
+                printf("O segundo numero e o maior"!);
+            }
+            else:
+            {
+                printf("O terceiro numero e o maior");
+            }
+        }
+}
